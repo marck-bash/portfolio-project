@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 
 export default function useDarkSide() {
     const [theme, setTheme] = useState(localStorage.theme);
-    const colorTheme = theme === "dark" ? "lofi" : "dark";
+    //switch out the true section of the ternary with your desired light mode style
+    const colorTheme = theme === "dark" ? "nord" : "dark";
     
     localStorage.setItem("theme", theme);
     

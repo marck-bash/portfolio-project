@@ -19,7 +19,6 @@ export default function Switcher() {
             checked={darkSide}
             onChange={toggleDarkMode}
             size={30}
-            moonColor='black'
         />
     </>
   )
