@@ -1,6 +1,8 @@
 import React from 'react'
 import DaisyUiNavBar from "./components/DaisyUiNavBar";
 import HomePage from './components/HomePage';
+import HeroDaisyUi from './components/HomePage';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
             <DaisyUiNavBar />
           </nav>
           <HomePage />
+          <Footer />
         </div>
       </div>
     </div>

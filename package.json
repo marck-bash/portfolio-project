@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "author": {
-    "name": "Joshua Burke, Upright Education Inc."
+    "name": "Marck Bashaw"
   },
   "scripts": {
     "dev": "vite",
@@ -15,6 +15,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.3",
+    "react-social-icons": "^6.16.0",
     "react-toggle-dark-mode": "^1.1.1"
   },
   "devDependencies": {

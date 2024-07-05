@@ -4,7 +4,7 @@ import Switcher from './Switcher'
 
 export default function DaisyUiNavBar() {
   return (
-    <div className="navbar bg-transparent mb-14">
+    <div className="navbar bg-transparent">
         <div className="navbar-start">
             <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -28,7 +28,6 @@ export default function DaisyUiNavBar() {
                     <li><a>Projects</a></li>
                     <li><a>Interests</a></li>
                     <li><a>Work History</a></li>
-                    <li><a>Contact Me</a></li>
                 </ul>
             </div>
             <figure>
