@@ -1,6 +1,7 @@
-import React from 'react'
-import smallCircularPortrait from '../assets/MarckHeadShotRound256(2).png'
-import Switcher from './Switcher'
+import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
+import smallCircularPortrait from '../assets/MarckHeadShotRound256(2).png';
+import Switcher from './Switcher';
 
 export default function DaisyUiNavBar() {
   return (
@@ -24,25 +25,26 @@ export default function DaisyUiNavBar() {
                 <ul
                     tabIndex={0}
                     className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                    <li><a>About</a></li>
-                    <li><a>Projects</a></li>
-                    <li><a>Interests</a></li>
-                    <li><a>Work History</a></li>
+                    <li><Link to='/about'>About</Link></li>
+                    <li><Link to='/skills'>Skills</Link></li>
+                    <li><Link to='/workhistory'>Work History</Link></li>
+                    <li><Link to='/projects'>Projects</Link></li>
+                    <li><Link to='/interests'>Interests</Link></li>
                 </ul>
             </div>
             <figure>
-                <a className="btn btn-ghost btn-circle">
+                <Link className="btn btn-ghost btn-circle" to="/" >
                     <img src={smallCircularPortrait} alt='Home' />
-                </a>
+                </Link>
             </figure>
         </div>
         <div className="navbar-center hidden lg:flex bg-transparent">
             <ul className="menu menu-horizontal px-4 border bg-base-100 rounded-full shadow-lg">
-                <li><a className="btn-sm bg-base-100 border-base-100 flex rounded-full hover:bg-base-300 hover:border-transparent hover:rounded-full">About</a></li>
-                <li><a className="btn-sm bg-base-100 border-base-100 flex rounded-full hover:bg-base-300 hover:border-transparent hover:rounded-full">Projects</a></li>
-                <li><a className="btn-sm bg-base-100 border-base-100 flex rounded-full hover:bg-base-300 hover:border-transparent hover:rounded-full">Interests</a></li>
-                <li><a className="btn-sm bg-base-100 border-base-100 flex rounded-full hover:bg-base-300 hover:border-transparent hover:rounded-full">Work History</a></li>
-                <li><a className="btn-sm bg-base-100 border-base-100 flex rounded-full hover:bg-base-300 hover:border-transparent hover:rounded-full">Contact Me</a></li>
+                <li><NavLink to="/about" className="btn-sm bg-base-100 border-base-100 flex rounded-full hover:bg-base-300 hover:border-transparent hover:rounded-full">About</NavLink></li>
+                <li><NavLink to="/skills" className="btn-sm bg-base-100 border-base-100 flex rounded-full hover:bg-base-300 hover:border-transparent hover:rounded-full">Skills</NavLink></li>
+                <li><NavLink to="/workhistory" className="btn-sm bg-base-100 border-base-100 flex rounded-full hover:bg-base-300 hover:border-transparent hover:rounded-full">Work History</NavLink></li>
+                <li><NavLink to="/projects" className="btn-sm bg-base-100 border-base-100 flex rounded-full hover:bg-base-300 hover:border-transparent hover:rounded-full">Projects</NavLink></li>
+                <li><NavLink to="/interests" className="btn-sm bg-base-100 border-base-100 flex rounded-full hover:bg-base-300 hover:border-transparent hover:rounded-full">Interests</NavLink></li>
             </ul>
         </div>
         <div className="navbar-end">

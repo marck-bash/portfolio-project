@@ -4,17 +4,17 @@ import { SocialIcon } from 'react-social-icons';
 import 'react-social-icons/github';
 import 'react-social-icons/linkedin';
 import 'react-social-icons/discord';
-import 'react-social-icons/email'
+import 'react-social-icons/email';
 
 export default function HomePage() {
   return (
-    <div className="hero mt-14">
+    <div className="hero bg-base-300">
         <div className="hero-content flex-col lg:flex-row-reverse">
             <img
                 src={headshotShrunk}
                 className="max-w-sm rounded-lg shadow-2xl place-self-start" />
             <div>
-                <div className="text-5xl font-bold flex justify-center border-y-8 border-secondary py-2">Marck A. Bashaw</div>
+                <div className="text-5xl font-bold flex justify-center border-y-4 border-secondary py-2">Marck A. Bashaw</div>
                 <div className='text-4xl text-primary font-bold font-serif flex flex-wrap w-3/4 pt-4'>
                     Full Stack Developer passionate about solving problems through design and code.
                 </div>
