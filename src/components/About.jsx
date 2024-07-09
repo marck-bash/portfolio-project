@@ -11,7 +11,7 @@ export default function About() {
         <nav>
           <DaisyUiNavBar />
         </nav>
-        <div className="flex-1 place-self-center lg:w-10/12 mt-6 bg-base-300">
+        <div className="flex-1 place-self-center lg:mt-20 bg-base-300 lg:px-24">
           <div className='bg-base-300 text-4xl border-b-2 border-secondary mb-10'>About</div>
           <div className='lg:flex gap-10 mb-10 bg-base-300'>
             <img src={SuitSelfie}  alt="selfie" className="h-[320px] rounded-lg shadow-2xl mb-4" />
