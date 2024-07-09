@@ -8,7 +8,7 @@ import 'react-social-icons/email';
 
 export default function HomePage() {
   return (
-    <div className="hero bg-base-300">
+    <div className="hero bg-base-300 flex-1">  {/* set outter div (found on app.jsx) to min-h-screen, and inner div to flex-1 */}
         <div className="hero-content flex-col lg:flex-row-reverse">
             <img
                 src={headshotShrunk}

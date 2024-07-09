@@ -1,6 +1,5 @@
 import React from 'react'
 import DaisyUiNavBar from "./DaisyUiNavBar";
-import HeroDaisyUi from './HomePage';
 import Footer from './Footer';
 
 export default function WorkHistory() {
