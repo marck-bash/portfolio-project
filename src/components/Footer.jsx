@@ -10,11 +10,11 @@ export default function Footer() {
   return (
         <footer className="footer footer-center text-base-content z-10 bg-base-300">
           <nav className="grid grid-flow-col gap-4">
-            <Link to="/about" className="link link-hover hover:text-primary">About</Link>
-            <Link to="/skills" className="link link-hover hover:text-primary">Skills</Link>
-            <Link to="/workhistory" className="link link-hover hover:text-primary">Work History</Link>
-            <Link to="/projects" className="link link-hover hover:text-primary">Projects</Link>
-            <Link to="/interests" className="link link-hover hover:text-primary">Interests</Link>
+            <Link to="/portfolio-project/about" className="link link-hover hover:text-primary">About</Link>
+            <Link to="/portfolio-project/skills" className="link link-hover hover:text-primary">Skills</Link>
+            <Link to="/portfolio-project/workhistory" className="link link-hover hover:text-primary">Work History</Link>
+            <Link to="/portfolio-project/projects" className="link link-hover hover:text-primary">Projects</Link>
+            <Link to="/portfolio-project/interests" className="link link-hover hover:text-primary">Interests</Link>
           </nav>
           <ul className="flex gap-4">
             <li>

@@ -11,28 +11,28 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/portfolio-project/',
     element: <App />,
   },
   // Add more page routes below
   {
-    path: '/about',
+    path: '/portfolio-project/about',
     element: <About />
   },
   {
-    path: '/skills',
+    path: '/portfolio-project/skills',
     element: <Skills />
   },
   {
-    path: '/workhistory',
+    path: '/portfolio-project/workhistory',
     element: <WorkHistory />
   },
   {
-    path: '/projects',
+    path: '/portfolio-project/projects',
     element: <Projects />
   },
   {
-    path: '/interests',
+    path: '/portfolio-project/interests',
     element: <Interests />
   }
 ]);
