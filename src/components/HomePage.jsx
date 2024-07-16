@@ -22,7 +22,7 @@ export default function HomePage() {
                     Currently working as a Full Stack Developer with Upright Education.  
                     Recently finished a Tech Boot Camp specializing in the MERN tech stack. I have a background in Technical Support 
                     from my years working at Springfield College. I am looking to utilize my skills as a Full Stack Developer in a full-time capacity.</p>
-                <ul className="flex gap-4">
+                <ul className="gap-4 hidden sm:flex">
                     <li>
                         <SocialIcon target="_blank" url="https://github.com/marck-bash" style={{ height: 35, width: 35 }} />
                     </li>

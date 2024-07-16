@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import DaisyUiNavBar from "./DaisyUiNavBar";
 import Footer from './Footer';
 import MERN from '../assets/MERN.jpg';
@@ -8,6 +9,10 @@ import reactSVG from '../assets/react.svg';
 import nodeJs from '../assets/Nodejs.png';
 import tailwindCSS from '../assets/TailwindCSS.png';
 import javascript from '../assets/javascript.png';
+import JsCredly from '../assets/JsCredly.png';
+import FullStackCredly from '../assets/FullStackCredly.png';
+import MongoDbCredly from '../assets/MongoDbCredly.png';
+import ReactFrontEndCredly from '../assets/ReactFrontEndCredly.png';
 
 export default function Skills() {
   return (
@@ -17,7 +22,7 @@ export default function Skills() {
         <nav>
           <DaisyUiNavBar />
         </nav>
-        <div className='flex-1 bg-base-300 place-self-center lg:mt-20 lg:px-24'>
+        <div className='flex-1 bg-base-300 place-self-center lg:mt-20 lg:px-24 px-2'>
           <div className="bg-base-300 text-4xl border-b-2 border-secondary lg:mb-10">Skills</div>
           <div className="flex justify-center my-4">
             <img
@@ -51,7 +56,7 @@ export default function Skills() {
                 <p className="border-t-2 border-secondary"></p>
                 <p>MongoDB is a source-available, cross-platform, document-oriented database program.
                    Classified as a NoSQL database product, MongoDB utilizes JSON-like documents with optional schemas.
-                    MongoDB is developed by MongoDB Inc. and current versions are licensed under the Server Side Public License
+                    I use and ODM called Mongoose to interact with my database on my server side.
                 </p>
               </div>
             </div>
@@ -78,7 +83,7 @@ export default function Skills() {
                 <p className="border-t-2 border-secondary"></p>
                 <p>React is a free and open-source front-end JavaScript library for building user interfaces based on components by Facebook Inc.
                    It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile,
-                    or server-rendered applications with frameworks like Next.js
+                    or server-rendered applications.  I prefer to use this front end for my HTML components because of it is robust and easy to use.
                 </p>
               </div>
             </div>
@@ -90,7 +95,7 @@ export default function Skills() {
                 <p className="place-self-center">Node.js</p>
                 <p className="border-t-2 border-secondary"></p>
                 <p>Node.js is a cross-platform, open-source JavaScript runtime environment that can run on Windows, Linux, Unix, macOS, and more.
-                   Node.js runs on the V8 JavaScript engine, and executes JavaScript code outside a web browser. Node.js lets developers use
+                   Node.js runs on the V8 JavaScript engine, and executes JavaScript code outside a web browser. Node.js allows me to use
                     JavaScript to write command line tools and for server-side scripting.
                 </p>
               </div>
@@ -103,9 +108,33 @@ export default function Skills() {
                 <p className="place-self-center">Tailwind CSS</p>
                 <p className="border-t-2 border-secondary"></p>
                 <p>Tailwind CSS is an open-source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap,
-                   it does not provide a series of predefined classes for elements such as buttons or tables.
+                   it does not provide a series of predefined classes for elements such as buttons or tables.  It also allows me to use helpful plug-ins such DaisyUI for customization of themes.
                 </p>
               </div>
+            </div>
+            <div className="bg-base-300 text-4xl border-b-2 border-secondary">Credentials</div>
+            <div>Below are links to the credentials I have earned through Upright Education.  These were acquired through months of real world exposure to these technologies.</div>
+            <div className="flex lg:place-content-center lg:flex-row lg:gap-10 flex-col place-items-center">
+              <a href="https://www.credly.com/badges/ad9d08c1-0d70-4590-a371-eb53f259ac8c" target="_blank" rel='noopener noreferrer'>
+                <img
+                  src={FullStackCredly} alt='Full Stack Developer' className="h-[250px] w-[250px]"
+                />
+              </a>
+              <a href="https://www.credly.com/badges/86c3ed88-d91c-40cf-b02e-8c61f2b05139" target="_blank" rel='noopener noreferrer'>
+                <img
+                  src={JsCredly} alt='JavaScript' className="h-[250px] w-[250px]"
+                />
+              </a>
+              <a href="https://www.credly.com/badges/651f3799-ebf8-4ed2-bfea-6f77469be226" target="_blank" rel='noopener noreferrer'>
+                <img
+                  src={MongoDbCredly} alt='Mongo DB' className="h-[250px] w-[250px]"
+                />
+              </a>
+              <a href="https://www.credly.com/badges/651f3799-ebf8-4ed2-bfea-6f77469be226" target="_blank" rel='noopener noreferrer'>
+                <img
+                  src={ReactFrontEndCredly} alt='React' className="h-[250px] w-[250px]"
+                />
+              </a>
             </div>
           </div>
         </div>

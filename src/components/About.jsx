@@ -7,11 +7,11 @@ export default function About() {
   return (
     <div className="w-screen h-screen flex flex-col items-center">
     <div className="flex flex-col bg-base-300 w-3/4 h-screen">
-      <div className="flex flex-col min-h-screen bg-base-300"> { /* Outter div min-h-screen, body content div flex-1 */ }
+      <div className="flex flex-col min-h-screen bg-base-300"> { /* (To get the footer to stay at bottom of screen) Outter div min-h-screen, body content div flex-1 */ }
         <nav>
           <DaisyUiNavBar />
         </nav>
-        <div className="flex-1 place-self-center lg:mt-20 bg-base-300 lg:px-24">
+        <div className="flex-1 place-self-center lg:mt-20 bg-base-300 lg:px-24 px-2">
           <div className='bg-base-300 text-4xl border-b-2 border-secondary mb-10'>About</div>
           <div className='lg:flex gap-10 mb-10 bg-base-300'>
             <img src={SuitSelfie}  alt="selfie" className="h-[320px] rounded-lg shadow-2xl mb-4" />
@@ -21,7 +21,7 @@ export default function About() {
             <div className="flex w-3/4">
               My name is Marck Bashaw.  I am from Springfield, Massacusetts.  
               I've recently completed a software development bootcamp 
-              through Upright Education.  Through Upright, I learned a new set of skills
+              through Upright Education.  While working with Upright, I learned a new set of skills
               utilizing modern tools to create web applications.  This has allowed me to gain knowledge,
               and coding experience, not just in the classroom, but in the real world as well.  At the end of the bootcamp, 
               I was given a capstone project that involved creating an application for Seven Brew Coffee.  I worked along three 

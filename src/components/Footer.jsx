@@ -8,7 +8,7 @@ import 'react-social-icons/email';
 
 export default function Footer() {
   return (
-        <footer className="footer footer-center text-base-content z-10 bg-base-300">
+        <footer className="footer footer-center text-base-content z-10 bg-base-300 px-2">
           <nav className="grid grid-flow-col gap-4">
             <Link to="/portfolio-project/about" className="link link-hover hover:text-primary">About</Link>
             <Link to="/portfolio-project/skills" className="link link-hover hover:text-primary">Skills</Link>
