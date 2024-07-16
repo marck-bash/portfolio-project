@@ -18,7 +18,7 @@ export default function PdfViewer() {
     }
 
   return (
-    <div className="flex place-content-center lg:mb-10 scale-50 lg:scale-100">
+    <div className="lg:mb-10 scale-50 lg:scale-100">
         <Document file={file} onLoadSuccess={onDocumentLoadSuccess}>
             <Page 
                 pageNumber={pageNumber}
