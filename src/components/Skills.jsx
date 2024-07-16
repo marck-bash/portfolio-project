@@ -22,7 +22,7 @@ export default function Skills() {
         <nav>
           <DaisyUiNavBar />
         </nav>
-        <div className='flex-1 bg-base-300 place-self-center lg:mt-20 lg:px-24 px-2'>
+        <div className='flex-1 bg-base-300 lg:mt-20 lg:px-24 px-2'>
           <div className="bg-base-300 text-4xl border-b-2 border-secondary lg:mb-10">Skills</div>
           <div className="flex justify-center my-4">
             <img

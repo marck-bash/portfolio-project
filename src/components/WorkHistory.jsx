@@ -1,6 +1,7 @@
 import React from 'react'
 import DaisyUiNavBar from "./DaisyUiNavBar";
 import Footer from './Footer';
+import PdfViewer from './PdfViewer';
 
 export default function WorkHistory() {
   return (
@@ -10,12 +11,12 @@ export default function WorkHistory() {
         <nav>
           <DaisyUiNavBar />
         </nav>
-        <div className="flex-1 place-self-center lg:mt-20 bg-base-300 lg:px-24 px-2">
+        <div className="flex-1 lg:mt-20 bg-base-300 lg:px-24 px-2">
           <div className="bg-base-300 text-4xl border-b-2 border-secondary lg:mb-10">Work History</div>
-          
+          <PdfViewer />
         </div>
-      </div>
         <Footer />
+      </div>
     </div>
   </div>  )
 }
